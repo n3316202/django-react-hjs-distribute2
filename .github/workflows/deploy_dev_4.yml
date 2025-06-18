@@ -6,7 +6,7 @@ on:
       - dev_4_템플릿기반_정적리소스_처리_2025-06-18
 
 jobs:
-  dev_3_deploy:
+  dev_4_deploy:
     name: Deploy to EC2
     runs-on: ubuntu-latest   
     
