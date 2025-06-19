@@ -57,3 +57,9 @@ DATABASES = {
 #         'PORT': os.getenv('DB_PORT', '3306'),
 #     }
 # }
+
+# dev_7
+CSRF_TRUSTED_ORIGINS = [
+    "http://52.79.37.117",
+    "http://52.79.37.117:8080",
+]
