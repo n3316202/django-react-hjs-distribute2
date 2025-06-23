@@ -63,3 +63,6 @@ CSRF_TRUSTED_ORIGINS = [
     "http://52.79.37.117",
     "http://52.79.37.117:8080",
 ]
+
+#dev_11 개발시 Origin 허용 - 배포시 불필요 - Nginx 프록시 이용시 
+CORS_ORIGIN_ALLOW_ALL = True 
